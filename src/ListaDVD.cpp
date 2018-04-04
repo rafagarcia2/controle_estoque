@@ -1,5 +1,6 @@
 #include "ListaDVD.h"
 
+#include <iostream>
 #include <limits>
 #include <iomanip>
 
@@ -45,7 +46,7 @@ void ListaDVD::excluir(unsigned id)
 
 void ListaDVD::imprimir() const
 {
-    cout << "ListaDVDS " << N << endl;
+    cout << "LISTADVD " << N << endl;
     for (unsigned i=0; i < N ; i++)
     {
         cout << i << ") "<<  x[i];
@@ -73,7 +74,7 @@ void ListaDVD::ler(istream &I)
 //
 void ListaDVD::salvar(ostream &O) const
 {
-    O << "ListaDVDS " << N << endl;
+    O << "LISTADVD: " << N << endl;
 
     for (unsigned i=0; i < N ; i++)
     {

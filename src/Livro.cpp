@@ -1,5 +1,6 @@
 #include "Livro.h"
 
+#include <iostream>
 #include <limits>
 
 istream &Livro::digitar(istream &I)

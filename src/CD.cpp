@@ -1,11 +1,12 @@
 #include "CD.h"
 
+#include <iostream>
 #include <limits>
 
 istream &CD::digitar(istream &I)
 {
     Produto::digitar(I);
-    cout << "N� de faixas: \n";
+    cout << "Numero de faixas: \n";
     I >> faixas;
     return I;
 }

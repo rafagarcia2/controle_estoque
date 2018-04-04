@@ -1,5 +1,6 @@
 #include "ListaLivro.h"
 
+#include <iostream>
 #include <limits>
 
 void ListaLivro::incluir(const Livro &L)
@@ -44,7 +45,7 @@ void ListaLivro::excluir(unsigned id)
 
 void ListaLivro::imprimir() const
 {
-    cout << "ListaLIVROS " << N << endl;
+    cout << "LISTALIVRO " << N << endl;
     for (unsigned i=0; i < N ; i++)
     {
         cout << i << ") "<< x[i];
@@ -71,7 +72,7 @@ void ListaLivro::ler(istream &I)
 
 void ListaLivro::salvar(ostream &O) const
 {
-    O << "ListaLIVROS " << N << endl;
+    O << "LISTALIVRO " << N << endl;
     for (unsigned i=0; i < N ; i++)
     {
         O<<x[i];

@@ -1,5 +1,6 @@
 #include "ListaCD.h"
 
+#include <iostream>
 #include <limits>
 #include <iomanip>
 
@@ -45,7 +46,7 @@ void ListaCD::excluir(unsigned id)
 
 void ListaCD::imprimir() const
 {
-    cout << "ListaCDS " << N << endl;
+    cout << "LISTACD " << N << endl;
     for (unsigned i=0; i < N ; i++)
     {
         cout << i << ") "<<  x[i];
@@ -72,7 +73,7 @@ void ListaCD::ler(istream &I)
 //
 void ListaCD::salvar(ostream &O) const
 {
-    O << "ListaCD " << N << endl;
+    O << "LISTACD " << N << endl;
     for (unsigned i=0; i < N ; i++)
     {
         O<<x[i];

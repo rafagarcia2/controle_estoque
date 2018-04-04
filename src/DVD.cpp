@@ -1,11 +1,13 @@
 #include "DVD.h"
+
+#include <iostream>
 #include <limits>
 #include <iomanip>
 
 istream &DVD::digitar(istream &I)
 {
     Produto::digitar(I);
-    cout << "Dura��o: \n";
+    cout << "Duração: \n";
     I >> duracao;
     return I;
 }

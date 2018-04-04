@@ -1,5 +1,6 @@
 #include "Produto.h"
 
+#include <iostream>
 #include <limits>
 
 istream &Produto::digitar(istream &I)
@@ -8,7 +9,7 @@ istream &Produto::digitar(istream &I)
     I.ignore(numeric_limits<streamsize>::max(), '\n');
     getline(I, nome, '\n');
     float price=0;
-    cout << "preço: ";
+    cout << "preco: ";
     I >> price;
     price=price*100.00;
     preco = price+0.5;

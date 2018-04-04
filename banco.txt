@@ -1,0 +1,7 @@
+LISTALIVRO 2
+L: "Python Machine Learning";$250;"Sebastian"
+L: "Use a Cabe‡a Java";$120;"Allan"
+LISTACD 1
+C: "Sugar";$20;22
+LISTADVD: 1
+D: "Pantera Negra";$35;2

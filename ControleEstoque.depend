@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1522792518 source:c:\users\c6-prof\documents\controleestoque\main.cpp
+	<iostream>
+	<string>
+	<limits>
+	"Loja.h"
+
+1522874445 c:\users\c6-prof\documents\controleestoque\include\loja.h
+	"ListaLivro.h"
+	"ListaCD.h"
+	"ListaDVD.h"
+	<iostream>
+	<string>
+
+1522874381 source:c:\users\c6-prof\documents\controleestoque\src\listadvd.cpp
+	"ListaDVD.h"
+	<limits>
+	<iomanip>
+
+1522873998 c:\users\c6-prof\documents\controleestoque\include\listadvd.h
+	"DVD.h"
+
+1522873885 c:\users\c6-prof\documents\controleestoque\include\dvd.h
+	"Produto.h"
+	<iostream>
+	<string>
+
+1522874014 c:\users\c6-prof\documents\controleestoque\include\produto.h
+	<iostream>
+	<string>
+
+1522874361 source:c:\users\c6-prof\documents\controleestoque\src\listacd.cpp
+	"ListaCD.h"
+	<limits>
+	<iomanip>
+
+1522873864 c:\users\c6-prof\documents\controleestoque\include\listacd.h
+	"CD.h"
+
+1522873906 c:\users\c6-prof\documents\controleestoque\include\cd.h
+	"Produto.h"
+	<iostream>
+	<string>
+
+1522876224 source:c:\users\c6-prof\documents\controleestoque\src\dvd.cpp
+	"DVD.h"
+	<iostream>
+	<limits>
+	<iomanip>
+
+1522873926 c:\users\c6-prof\documents\controleestoque\include\listalivro.h
+	"Livro.h"
+
+1522874404 c:\users\c6-prof\documents\controleestoque\include\livro.h
+	"Produto.h"
+	<iostream>
+	<string>
+
+1522874363 source:c:\users\c6-prof\documents\controleestoque\src\loja.cpp
+	"Loja.h"
+	<iostream>
+	<stdint.h>
+	<fstream>
+	<string>
+	<limits>
+	<iomanip>
+
+1522876194 source:c:\users\c6-prof\documents\controleestoque\src\livro.cpp
+	"Livro.h"
+	<iostream>
+	<limits>
+
+1522876258 source:c:\users\c6-prof\documents\controleestoque\src\cd.cpp
+	"CD.h"
+	<iostream>
+	<limits>
+
+1522874511 source:c:\users\c6-prof\documents\controleestoque\src\listalivro.cpp
+	"ListaLivro.h"
+	<limits>
+
+1522876169 source:c:\users\c6-prof\documents\controleestoque\src\produto.cpp
+	"Produto.h"
+	<iostream>
+	<limits>
+
