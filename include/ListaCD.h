@@ -1,6 +1,7 @@
 #ifndef LISTACD_H
 #define LISTACD_H
 
+#include "CD.h"
 
 class ListaCD
 {

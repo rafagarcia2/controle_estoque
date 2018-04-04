@@ -1,6 +1,8 @@
 #ifndef LISTALIVRO_H
 #define LISTALIVRO_H
 
+#include "Livro.h"
+
 class ListaLivro
 {
 private:

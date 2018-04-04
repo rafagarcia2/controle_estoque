@@ -1,11 +1,30 @@
 #include "Livro.h"
 
-Livro::Livro()
+#include <limits>
+
+istream &Livro::digitar(istream &I)
 {
-    //ctor
+    Produto::digitar(I);
+    cout << "Autor: \n";
+    I.ignore(numeric_limits<streamsize>::max(), '\n');
+    getline(I, autor, '\n');
+    return I;
 }
 
-Livro::~Livro()
+ostream &Livro::imprimir(ostream &O) const
 {
-    //dtor
+    O << "L: ";
+    Produto::imprimir(O);
+    O << '"' << autor << '"' << endl;
+    return O;
+}
+
+istream &Livro::ler(istream &I)
+{
+    Produto::ler(I);
+    I.ignore(numeric_limits<streamsize>::max(), '"');
+    getline(I, autor, '"');
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    return I;
 }

@@ -1,6 +1,7 @@
 #ifndef LIVRO_H
 #define LIVRO_H
 
+#include "Produto.h"
 #include <iostream>
 #include <string>
 

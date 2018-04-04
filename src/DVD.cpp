@@ -1,11 +1,28 @@
 #include "DVD.h"
+#include <limits>
+#include <iomanip>
 
-DVD::DVD()
+istream &DVD::digitar(istream &I)
 {
-    //ctor
+    Produto::digitar(I);
+    cout << "Dura��o: \n";
+    I >> duracao;
+    return I;
 }
 
-DVD::~DVD()
+ostream &DVD::imprimir(ostream &O) const
 {
-    //dtor
+    O << "D: ";
+    Produto::imprimir(O);
+    O << duracao << endl;
+    return O;
+}
+
+istream &DVD::ler(istream &I)
+{
+    Produto::ler(I);
+    I>>duracao;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    return I;
 }

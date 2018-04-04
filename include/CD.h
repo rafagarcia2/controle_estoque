@@ -1,6 +1,7 @@
 #ifndef CD_H
 #define CD_H
 
+#include "Produto.h"
 #include <iostream>
 #include <string>
 

@@ -1,6 +1,8 @@
 #ifndef DVD_H
 #define DVD_H
 
+#include "Produto.h"
+
 #include <iostream>
 #include <string>
 
