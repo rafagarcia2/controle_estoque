@@ -84,3 +84,91 @@
 	<iostream>
 	<limits>
 
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/main.cpp
+	<iostream>
+	<string>
+	<limits>
+	"Loja.h"
+
+1522950910 /home/rafael/UFRN/PA/controle_estoque/include/Loja.h
+	"ListaLivro.h"
+	"ListaCD.h"
+	"ListaDVD.h"
+	<iostream>
+	<string>
+
+1522950910 /home/rafael/UFRN/PA/controle_estoque/include/ListaLivro.h
+	"Livro.h"
+
+1522950910 /home/rafael/UFRN/PA/controle_estoque/include/Livro.h
+	"Produto.h"
+	<iostream>
+	<string>
+
+1522950910 /home/rafael/UFRN/PA/controle_estoque/include/Produto.h
+	<iostream>
+	<string>
+
+1522950910 /home/rafael/UFRN/PA/controle_estoque/include/ListaCD.h
+	"CD.h"
+
+1522950910 /home/rafael/UFRN/PA/controle_estoque/include/CD.h
+	"Produto.h"
+	<iostream>
+	<string>
+
+1522950910 /home/rafael/UFRN/PA/controle_estoque/include/ListaDVD.h
+	"DVD.h"
+
+1522950910 /home/rafael/UFRN/PA/controle_estoque/include/DVD.h
+	"Produto.h"
+	<iostream>
+	<string>
+
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/src/CD.cpp
+	"CD.h"
+	<iostream>
+	<limits>
+
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/src/DVD.cpp
+	"DVD.h"
+	<iostream>
+	<limits>
+	<iomanip>
+
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/src/ListaCD.cpp
+	"ListaCD.h"
+	<iostream>
+	<limits>
+	<iomanip>
+
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/src/ListaDVD.cpp
+	"ListaDVD.h"
+	<iostream>
+	<limits>
+	<iomanip>
+
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/src/ListaLivro.cpp
+	"ListaLivro.h"
+	<iostream>
+	<limits>
+
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/src/Livro.cpp
+	"Livro.h"
+	<iostream>
+	<limits>
+
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/src/Loja.cpp
+	"Loja.h"
+	<iostream>
+	<stdint.h>
+	<fstream>
+	<string>
+	<limits>
+	<iomanip>
+
+1522950910 source:/home/rafael/UFRN/PA/controle_estoque/src/Produto.cpp
+	"Produto.h"
+	<iostream>
+	<limits>
+
